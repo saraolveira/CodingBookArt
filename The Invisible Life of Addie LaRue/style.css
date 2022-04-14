@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #002049;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.lines {
+    width: 500px;
+    height: 100vh;
+    position: relative;
+}
+
+.line {
+    width: 300px;
+    height: 130vh;
+    border: solid 5px;
+    position: absolute;
+    top: -10vh;
+}
+
+.line1 {
+    border-color: transparent #cb9500 transparent transparent;
+    border-radius: 50%/100vh 100vh 0 0;
+    left: -10px;
+}
+
+.line2 {
+    border-color: transparent #cb9500 transparent transparent;
+    border-radius: 30%/100vh 100vh 0 0;
+    left:-200px;
+}
+
+.line3 {
+    border-color: transparent transparent transparent #cb9500 ;
+    border-radius: 50%/100vh 100vh 0 0;
+    left:40px;
+}
+
+.line4 {
+    border-color: transparent transparent transparent #cb9500 ;
+    border-radius: 30%/100vh 100vh 0 0;
+    left:300px;
+}
+
+.line5 {
+    border-color: transparent transparent transparent #cb9500 ;
+    border-radius: 50%/100vh 0 0 100vh;
+    left:400px;
+}
+
+.line6 {
+    border-color: transparent #cb9500 transparent transparent;
+    border-radius: 100vh 0 0 50%/100vh;
+    left:45px;
+}
+
+.line7 {
+    border-color: transparent transparent transparent #cb9500 ;
+    border-radius: 30%/100vh 0 0 100vh;
+    left:230px;
+}
+
+
+.line8 {
+    border-color: transparent #cb9500 transparent transparent;
+    border-radius: 70%/100vh 100vh 0 0;
+    left:-100px;
+}
+
+.line9 {
+    border-color: transparent transparent transparent #cb9500; 
+    border-radius: 80%/100vh 100vh 0 0;
+    left:350px;
+}
+
+.line10 {
+    border-color: transparent transparent transparent #cb9500; 
+    border-radius: 40%/100vh 100vh 0 0;
+    left:230px;
+}
+
+.line11 {
+    border-color: transparent #cb9500 transparent transparent;
+    border-radius: 50%/100vh 100vh 0 0;
+    left:130px;
+}
+
+.line12 {
+    border-color: transparent #cb9500 transparent transparent;
+    border-radius: 30%/100vh 100vh 0 0;
+    left:-200px;
+}
+
+.line13 {
+    border-color: transparent transparent transparent #cb9500 ;
+    border-radius: 50%/100vh 100vh 0 0;
+    left:150px;
+}
+
+.line14 {
+    border-color: transparent transparent transparent #cb9500 ;
+    border-radius: 30%/100vh 100vh 0 0;
+    left:440px;
+}
+
+.line15 {
+    border-color: transparent transparent transparent #cb9500 ;
+    border-radius: 50%/100vh 0 0 100vh;
+    left:120px;
+}
+
+.line16 {
+    border-color: transparent #cb9500 transparent transparent;
+    border-radius: 100vh 0 0 50%/100vh;
+    left:-100px;
+}
+
+.line17 {
+    border-color: transparent transparent transparent #cb9500 ;
+    border-radius: 30%/100vh 0 0 100vh;
+    left:10px;
+}
+
+.line18 {
+    border-color: transparent #cb9500 transparent transparent;
+    border-radius: 70%/100vh 100vh 0 0;
+    left:180px;
+}
+
+.line19 {
+    border-color: transparent transparent transparent #cb9500; 
+    border-radius: 80%/100vh 100vh 0 0;
+    left:270px;
+}
+
+.line20 {
+    border-color: transparent transparent transparent #cb9500; 
+    border-radius: 40%/100vh 100vh 0 0;
+    left:70px;
+}
+
+.flower {
+    height: 30px;
+    width: 30px;
+    background-color: #76ace1;
+    border-radius: 50%;
+    box-shadow: 15px 17px #76ace1, -15px 17px #76ace1, -22px -7px #76ace1,
+    0px -22px #76ace1, 22px -7px #76ace1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pit {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #cb9500;
+}
+
+.flower2, .flower3 {
+    transform: scale(0.5);
+}
+
+.flower2 {
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.flower3 {
+    margin-left: 55px;
+    margin-top: -70px;
+}
+
+.flowers1 {
+    position: absolute;
+    left: 30px;
+    top: 500px;
+}
+
+.flowers2 {
+    position:absolute;
+    top: 150px;
+    left: 130px
+}
+
+.flowers3 {
+    position:absolute;
+    top: 800px;
+    left: 250px
+}
+
+.flowers4 {
+    position:absolute;
+    top: 600px;
+    left: 380px
+}
+
+.flowers5 {
+    position:absolute;
+    top: 300px;
+    left: 300px
+}
