@@ -1,0 +1,133 @@
+/* Shiny Broken Pieces by Sona Charaipotra & Dhonielle Clayton */
+@import url('https://fonts.googleapis.com/css2?family=Whisper&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: 'Whisper', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book {
+    background-color: #f9ccd6;
+    width: 500px;
+    height: 700px;
+    border-radius: 0 10px 10px 0;
+    position: relative;
+}
+
+.shard {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.7) transparent transparent transparent;
+    position: absolute;
+}
+
+.shard1 {
+    border-width: 700px 130px 0 130px;
+    top: -150px;
+    transform: rotate(-30deg);
+}
+
+.shard2 {
+    border-width: 500px 190px 0 190px;
+    left: 150px;
+}
+
+.shard3 {
+    border-width: 241px 600px 0 600px;
+    transform: rotate(90deg) translate(400px, 110px);
+}
+
+.shard4 {
+    border-width: 234px 175.5px 0 175.5px;
+    bottom: -120px;
+    left: 160px;
+    transform: rotate(187deg);
+}
+
+.shard5 {
+    border-width: 600px 140px 0 140px;
+    top: 80px;
+    left: -100px;
+    transform: rotate(-60deg);
+}
+
+.shard6 {
+    border-width: 600px 140px 0 140px;
+    top: 250px;
+    left: -150px;
+    transform: rotate(-90deg);
+}
+
+.shard7 {
+    border-width: 600px 140px 0 140px;
+    top: 470px;
+    left: -80px;
+    transform: rotate(-130deg);
+}
+
+.blur {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    background: linear-gradient(to right bottom, rgba(247,199,207,0.7), rgba(247,199,207,0.3));
+    backdrop-filter: blur(0.2rem);
+    box-shadow: -7px 7px 20px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 0 10px 10px 0;
+}
+
+.text {
+    position: absolute;
+    font-size: 10em;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-10deg);
+}
+
+.text1, .text2, .text3 {
+    background: linear-gradient(-45deg, #000, #fff, #000, #000);
+    background-size: 400% 400%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.text1 {
+    animation: shine 3s ease infinite;
+}
+
+.text2 {
+    animation: shine 5s ease infinite;
+    margin-top: -70px;
+    margin-bottom: -70px;
+}
+
+.text3 {
+    animation: shine 4s ease infinite;
+}
+
+@keyframes shine {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
