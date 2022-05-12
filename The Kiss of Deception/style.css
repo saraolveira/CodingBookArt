@@ -1,0 +1,194 @@
+/* The Kiss of Deception by Mary E. Pearson */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+:root {
+    --dark-green: #787e5a;
+    --light-green: #cac791;
+    --circle: rgba(191, 67, 67, 0.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.lia .face, .lia .neck {
+    background-color: #c0ad9c;
+}
+
+.lia .hair {
+    background-color: #37383a;
+}
+
+.lia .body {
+    background-color: #641a00;
+}
+
+.rafe .face, .rafe .neck {
+    background-color: #ad9c7f;
+}
+
+.rafe .hair {
+    background-color: #29231b;
+}
+
+.rafe .body {
+    background-color: #2d3231;
+}
+
+.kaden .face, .kaden .neck {
+    background-color: #c0ad9c;
+}
+
+.kaden .hair {
+    background-color: #876a44;
+}
+
+.kaden .body {
+    background-color: #68502a;
+}
+
+.book {
+    background-image: linear-gradient(15deg, var(--dark-green) 0%, var(--light-green) 100%);
+    width: 500px;
+    height: 700px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    position: absolute;
+    top: 45%;
+    z-index: 6;
+    font-size: 1.4em;
+    color: var(--dark-green);
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background: var(--circle);
+    backdrop-filter: blur(2rem);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.face {
+    width: 80px;
+    height: 90px;
+    border-radius: 0 0 50% 50%;
+    position: relative;
+    z-index:4;
+}
+
+.hair1 {
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px; 
+    left: 10px;
+    transform: rotate(-40deg);
+    z-index: 5;
+}
+
+.hair2 {
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px; 
+    right: 10px;
+    transform: rotate(40deg);
+    z-index: 5;
+}
+
+.hair3 {
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px; 
+    left: 20px;
+    z-index: 1;
+}
+
+.hair4 {
+    width: 40px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px; 
+    left: 20px;
+    z-index: 1;
+}
+
+.hair5 {
+    width: 60px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px; 
+    right: 20px;
+    z-index: 2;
+}
+
+.hair6 {
+    width: 40px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    top: 80px; 
+    right: 20px;
+    z-index: 3;
+}
+
+.neck {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.lia .neck::before {
+    content: "";
+    position: absolute;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #c0ad9c;
+}
+
+.body {
+    width: 80px;
+    height: 20px;
+    position: absolute;
+    z-index:1;
+    bottom: 0;
+    border-radius: 30px;
+}
