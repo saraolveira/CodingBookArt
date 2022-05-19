@@ -1,0 +1,128 @@
+/* Feminists Don't Weark Pink by Scarlett Curtis */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pink: #f38cb7;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.book {
+    background-color: #fff;
+    width: 500px;
+    height: 700px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.15);
+    position: relative;
+}
+
+.book::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    border-radius: 0 0 10px 0;
+    background-color: var(--pink);
+}
+
+.pink {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 50%;
+    width: 375px;
+    transform: translateX(-50%);
+}
+
+.p {
+    background-color: #f38cb7;
+    height: 140px;
+    width: 23px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.p::before {
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 250%;
+    border: solid 23px #f38cb7;
+    border-radius: 0 50% 50% 0;
+}
+
+.i {
+    background-color: #f38cb7;
+    height: 140px;
+    width: 23px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    left: 120px;
+}
+
+.n {
+    background-color: #f38cb7;
+    height: 140px;
+    width: 23px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    left: 163px;
+}
+
+.n::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #f38cb7;
+    left: 80px;
+}
+
+.n::after {
+    content: "";
+    position: absolute;
+    height: 107%;
+    width: 100%;
+    background-color: #f38cb7;
+    transform-origin: top right;
+    transform: rotate(-31deg);
+}
+
+.k {
+    background-color: #f38cb7;
+    height: 140px;
+    width: 23px;
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    left: 286px;
+}
+
+.k::before {
+    content: "";
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-top: solid 23px #f38cb7;
+    border-left: solid 23px #f38cb7;
+    transform-origin: top left;
+    transform: rotate(-45deg);
+    top: 50%;
+}
