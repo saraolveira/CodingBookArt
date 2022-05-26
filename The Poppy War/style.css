@@ -1,0 +1,46 @@
+/* The Poppy War by R.F. Kuang */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.book {
+    background: linear-gradient(#f73d00 0%, #f9a452 60%);
+    width: 500px;
+    height: 700px;
+    border-radius: 0 10px 10px 0;
+    box-shadow: -7px 7px 20px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poppy {
+    width: 50px;
+    height: 50px;
+    background-color: #d80000;
+    border-radius: 50%;
+    box-shadow: 15px 17px #d80000, -15px 17px #d80000, -22px -7px #d80000, 0px -22px #d80000, 22px -7px #d80000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(2.5) rotate(-25deg);
+}
+
+.pit {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #140100;
+}
